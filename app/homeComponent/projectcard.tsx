@@ -7,14 +7,15 @@ import { motion } from 'motion/react';
 
 interface ProjectCard{
     label: string
+    link: string
     children: React.ReactNode;
 }
 
-export default function ProjectCard({children, label}: ProjectCard){
+export default function ProjectCard({children, label, link}: ProjectCard){
     const [isHover, setIsHover] = useState(false);
     return(
         <Link
-            href={''}
+            href={link}
             className='relative my-4 aspect-square h-[230px] overflow-hidden rounded-4xl border-4 border-white shadow-md p-4'
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}

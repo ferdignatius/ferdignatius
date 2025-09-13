@@ -11,26 +11,26 @@ export default function Home(){
       <div className="flex flex-col justify-center min-h-[50vh] ">
       <h2 className="font-semibold text-lg">Get to know me better</h2>
       <div className="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 gap-2">
-        <ProjectCard label="My Experience">
+        <ProjectCard label="My Experience" link="#">
           <TimelineCard/>
         </ProjectCard>
-        <ProjectCard label="My Project">
+        <ProjectCard label="My Project" link="#">
           <img
             src='project1.jpg'
             alt='Project'
             className='absolute inset-0 bg-cover w-full h-full object-cover object-top'
           />
         </ProjectCard>
-        <ProjectCard label="My Blog">
+        <ProjectCard label="My Blog" link="#">
           <img
             src='blog.jpg'
             alt='Project'
             className='absolute inset-0 bg-cover w-full h-full object-cover object-top'
           />
         </ProjectCard>
-        <ProjectCard label="My Achievement">
+        <ProjectCard label="My Achievement" link="#">
           <img
-            src='project.jpg'
+            src='achievement.jpg'
             alt='Project'
             className='absolute inset-0 bg-cover w-full h-full object-cover object-top'
           />
