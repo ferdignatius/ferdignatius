@@ -3,6 +3,7 @@ import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import {CircleDot, Instagram, Linkedin, Twitter} from 'lucide-react'
+import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button";
 
 export default function Hero(){
     return(
@@ -18,7 +19,7 @@ export default function Hero(){
             </div>
             <br />
             <div className="flex gap-4 items-center">
-                <Button className="rounded-4xl px-5 text-base font-semibold cursor-pointer">Book a Call</Button>
+                <Button variant="primary" className="rounded-4xl px-5 text-base font-semibold cursor-pointer">Book a Call</Button>
             </div>
         </header>
     )}
