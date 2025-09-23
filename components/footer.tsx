@@ -12,34 +12,22 @@ import {
 
 const links = [
     {
-        title: 'Features',
-        href: '#',
-    },
-    {
-        title: 'Solution',
-        href: '#',
-    },
-    {
-        title: 'Customers',
-        href: '#',
-    },
-    {
-        title: 'Pricing',
-        href: '#',
-    },
-    {
-        title: 'Help',
+        title: 'Projects',
         href: '#',
     },
     {
         title: 'About',
         href: '#',
     },
+    {
+        title: 'Contact',
+        href: '#',
+    },
 ]
 
 export default function FooterSection() {
     return (
-        <footer className="py-16 md:py-32">
+        <footer className="pt-8 md:pt-16">
             <div className="mx-auto max-w-5xl px-6">
                 <Link
                     href="/"
@@ -108,7 +96,7 @@ export default function FooterSection() {
                         <Feather className="size-6" /> {/* Generic "Feather" (post/write) icon */}
                     </Link>
                 </div>
-                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Tailark, All rights reserved</span>
+                <span className="text-muted-foreground block text-center text-sm"> © {new Date().getFullYear()} Ferdinand Ignatius Surya</span>
             </div>
         </footer>
     )

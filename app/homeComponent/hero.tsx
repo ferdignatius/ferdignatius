@@ -7,7 +7,7 @@ import { InteractiveHoverButton } from "@/components/ui/interactive-hover-button
 
 export default function Hero(){
     return(
-        <header className="w-full my-auto h-[50vh] flex flex-col justify-center">
+        <header className="w-full my-auto pt-8 md:pt-16 flex flex-col justify-center">
             <h1 className="text-4xl">Hi, I&apos;m <Image src={'/profile.JPG'} width={100} height={50} alt="Profile" className="inline rounded-4xl border-4 border-white object-top"/> <b className="font-semibold">Ferdinand Ignatius Surya!</b></h1>
             <h1 className="text-4xl text-neutral-500">I&apos;m a <b className="font-semibold text-neutral-500">Fullstack Developer</b></h1>
             <br />
